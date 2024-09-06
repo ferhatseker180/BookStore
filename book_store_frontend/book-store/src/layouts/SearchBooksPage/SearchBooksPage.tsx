@@ -80,6 +80,7 @@ export const SearchBooksPage = () => {
     );
   }
 
+  
   const searchHandleChange = () => {
     setCurrentPage(1);
     if (search === "") {
